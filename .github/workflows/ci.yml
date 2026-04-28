@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-          cache: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -67,7 +66,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-          cache: true
 
       - name: Restore dependencies
         run: dotnet restore lab7.sln
@@ -106,7 +104,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-          cache: true
 
       - name: Restore dependencies
         run: dotnet restore lab7.sln
@@ -159,7 +156,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-          cache: true
 
       - name: Install ReportGenerator
         run: dotnet tool install --global dotnet-reportgenerator-globaltool
