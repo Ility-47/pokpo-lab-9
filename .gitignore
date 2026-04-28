@@ -1,0 +1,24 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+## IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Test and coverage artifacts
+TestResults/
+coveragereport/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+## Tools and temporary files
+.tools/
+artifacts/
