@@ -2,14 +2,14 @@
 <RunSettings>
   <DataCollectionRunSettings>
     <DataCollectors>
-      <DataCollector friendlyName="XPlat code coverage">
+      <DataCollector friendlyName="XPlat Code Coverage">
         <Configuration>
           <Format>cobertura</Format>
-          <Exclude>[*.Tests]*</Exclude>
+          <Exclude>[*.Tests]*;[MediaShareApp]MediaShareApp.WinForms*;[MediaShareApp]MediaShareApp.LoadScenarioRunner*;[MediaShareApp]MediaShareApp.LoadTestResult*</Exclude>
           <IncludeTestAssembly>false</IncludeTestAssembly>
           <Threshold>70</Threshold>
-          <ThresholdType>line</ThresholdType>
-          <ThresholdStat>total</ThresholdStat>
+          <ThresholdType>Line</ThresholdType>
+          <ThresholdStat>Total</ThresholdStat>
         </Configuration>
       </DataCollector>
     </DataCollectors>
