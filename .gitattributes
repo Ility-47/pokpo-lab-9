@@ -1,0 +1,14 @@
+# Автоматически конвертировать все текстовые файлы в LF при коммите
+* text=auto eol=lf
+
+# Явно указать LF для C# файлов
+*.cs text eol=lf
+
+# Файлы проектов и решений тоже с LF
+*.csproj text eol=lf
+*.sln text eol=lf
+
+# Файлы конфигурации
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
