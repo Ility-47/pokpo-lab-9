@@ -35,7 +35,7 @@ namespace MediaShareApp.Tests.UITests
         private static string AppPath => Path.GetFullPath(
             Path.Combine(
                 TestContext.CurrentContext.TestDirectory,
-                @"..\..\..\..\MediaShareApp\bin\Debug\net8.0-windows\MediaShareApp.exe"));
+                @"..\..\..\..\MediaShareApp\bin\Release\net8.0-windows\MediaShareApp.exe"));
 
         [SetUp]
         public void Setup()
